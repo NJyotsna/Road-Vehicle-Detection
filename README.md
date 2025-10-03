@@ -16,11 +16,11 @@ Generates heatmaps, confidence distribution plots, and CSV summaries.
 
 ### **Datasets**
 
-RSUD20K Bangladesh Road Scene Dataset
+[RSUD20K Bangladesh Road Scene Dataset](https://www.kaggle.com/datasets/hasibzunair/rsud20k-bangladesh-road-scene-understanding)
 
-Road Vehicle Images Dataset
+[Road Vehicle Images Dataset](https://www.kaggle.com/datasets/ashfakyeafi/road-vehicle-images-dataset)
 
-Color Palette Dataset
+[Color Palette Dataset](https://www.kaggle.com/datasets/stpeteishii/color-palette)
 
 Note: Download the datasets and update the paths in the code accordingly.
 
