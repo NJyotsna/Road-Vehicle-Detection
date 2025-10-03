@@ -28,41 +28,55 @@ Note: Download the datasets and update the paths in the code accordingly.
 
 Clone the repository:
 
-```git clone https://github.com/<your-username>/road-vehicle-detection.git
-cd road-vehicle-detection```
+```
+git clone https://github.com/<your-username>/road-vehicle-detection.git
+cd road-vehicle-detection
+```
 
 
 Install dependencies:
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 
 Install additional packages (if needed):
 
-```pip install kagglehub pybboxes opencv-python-headless ultralytics torch torchvision matplotlib seaborn```
+```
+pip install kagglehub pybboxes opencv-python-headless ultralytics torch torchvision matplotlib seaborn
+```
 
 ### **Usage**
 
 Data Preprocessing
 
-```python src/data_loader.py```
+```
+python src/data_loader.py
+```
 
 
 Prepares CSV files for train, validation, and test sets. 
 
 Train Custom CNN Model
 
-```python src/train.py```
+```
+python src/train.py
+```
 
 
 Run Detection with YOLO/Faster R-CNN
 
-``` python src/inference.py --model yolov8 --image path/to/image.jpg ```
+``` 
+python src/inference.py --model yolov8 --image path/to/image.jpg
+```
 
 
 Visualize Results
 
-```python src/visualize.py --input path/to/image.jpg```
+```
+python src/visualize.py --input path/to/image.jpg
+```
 
 ### **Results**
 
